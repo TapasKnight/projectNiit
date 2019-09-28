@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activities.profileDetails">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Enter your Personal Details below : "
+        android:textAlignment="center"
+        android:textColor="#E6E91E63"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_style"
+        android:ems="10"
+        android:hint="Enter Your First Name:"
+
+        android:padding="5dp"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_style"
+        android:ems="10"
+        android:hint="Enter Your Last Name:"
+
+        android:padding="5dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_style"
+        android:ems="10"
+        android:hint="DOB ( dd / mm / yyyy):"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address :"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editAddr"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/reg_style"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:padding="5dp"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_style"
+        android:ems="10"
+        android:hint="Profession:"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20dp" />
+</LinearLayout>

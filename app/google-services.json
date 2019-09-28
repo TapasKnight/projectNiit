@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "992810602871",
+    "firebase_url": "https://relef2.firebaseio.com",
+    "project_id": "relef2",
+    "storage_bucket": "relef2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992810602871:android:94863e6746372b9f",
+        "android_client_info": {
+          "package_name": "com.example.check"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992810602871-hjr6tbcr8ogfpssgvopf08mdnfp63dos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASD-SKL-oAuPDi46icYcvvdRwEMWs2CVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992810602871:android:d54001fbd1a5d98d",
+        "android_client_info": {
+          "package_name": "com.example.new_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992810602871-hjr6tbcr8ogfpssgvopf08mdnfp63dos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASD-SKL-oAuPDi46icYcvvdRwEMWs2CVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

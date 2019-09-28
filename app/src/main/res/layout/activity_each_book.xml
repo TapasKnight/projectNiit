@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.EachBook"
+    >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="125dp"
+                android:background="#2d2d2d"
+                android:layout_height="175dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/Book_activity_thumbnail"/>
+
+            <TextView
+                android:id="@+id/bookTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Title"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/bookDescription"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Haruki Murakami (村上 春樹 Murakami Haruki, born January 12, 1949) is a Japanese writer. His books and stories have been bestsellers in Japan as well as internationally, with his work being translated into 50 languages[1] and selling millions of copies outside his native country.[2][3] His work has received numerous awards, including the World Fantasy Award, the Frank O'Connor International Short Story Award, the Franz Kafka Prize, and the Jerusalem Prize.
+
+Murakami's most notable works include A Wild Sheep Chase (1982), Norwegian Wood (1987), The Wind-Up Bird Chronicle (1994–95), Kafka on the Shore (2002), and 1Q84 (2009–10). He has also translated into Japanese works by writers including Raymond Carver and J. D. Salinger. His fiction, sometimes criticized by Japan's literary establishment as un-Japanese,[4][5] was influenced by Western writers from Chandler to Vonnegut by way of Brautigan. It is frequently surrealistic and melancholic or fatalistic, marked by a Kafkaesque rendition of the recurrent themes of alienation and loneliness[6] he weaves into his narratives. Steven Poole of The Guardian praised Murakami as among the world's greatest living novelists for his works and achievements" />
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

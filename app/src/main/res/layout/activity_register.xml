@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".Activities.RegisterActivity"
+
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/user_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/userphoto"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:hint="Enter Name"
+        android:background="@drawable/reg_style"
+        android:id="@+id/user_name"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_image"
+        android:layout_marginTop="60dp"
+        android:textColor="#009688"/>
+    <EditText
+        android:paddingLeft="20dp"
+        android:hint="Enter Email"
+        android:background="@drawable/reg_style"
+        android:id="@+id/user_email"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_email"
+        android:layout_marginTop="35dp"
+        android:textColor="#009688"
+        />
+    <EditText
+        android:paddingLeft="20dp"
+        android:hint="Enter Password"
+        android:background="@drawable/reg_style"
+        android:id="@+id/user_password"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_email"
+        android:layout_marginTop="35dp"
+        android:inputType="textPassword"
+        android:textColor="#009688"
+        />
+    <EditText
+        android:paddingLeft="20dp"
+        android:hint="Confirm Password"
+        android:background="@drawable/reg_style"
+        android:id="@+id/user_conf"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_password"
+        android:layout_marginTop="35dp"
+        android:textColor="#009688"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:background="@drawable/reg_buttonstyle"
+        android:id="@+id/btn_register"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:layout_below="@+id/user_conf"
+        android:layout_marginTop="60dp"/>
+
+    <ProgressBar
+        android:id="@+id/register_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

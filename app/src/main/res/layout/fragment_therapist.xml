@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+<LinearLayout
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+  <LinearLayout
+      android:id="@+id/therapistPawan"
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/pawan"
+        android:layout_marginLeft="5dp"
+        />
+      <TextView
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:text="Pawan Kundar"
+          android:padding="5dp"
+          android:layout_marginLeft="30dp"
+          android:layout_marginTop="5dp"/>
+
+      <Button
+          android:id="@+id/callPawan"
+          android:layout_width="80dp"
+          android:layout_height="40dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="5dp"
+          android:text="Call"
+          android:clickable="true"
+          android:padding="10dp"/>
+
+
+  </LinearLayout>
+    <LinearLayout
+        android:id="@+id/therapistJosiah"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/josiah"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Josiah "
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/callJosiah"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Call"
+            android:clickable="true"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/therapistBhavesh"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bhavesh"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Bhavesh Suthar"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/callBhavesh"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Call"
+            android:clickable="true"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/therapistRidge"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/userphoto"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Ridge Coutinho"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/callRidge"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Call"
+            android:clickable="true"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/therapistShubham"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/userphoto"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Shubham Tiwari"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/callShubham"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Call"
+            android:clickable="true"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
